@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReactJS</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Staatliches&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+<a href="index.html">
+    <img class="header__logo" src="img/logo.png" alt="logotipo">
+</a>
+    </header>
+    <nav class="navegacion">
+        <a class="navegacion__enlace--activo navegacion__enlace" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+    
+    <main class="contenedor">
+            <h1>React JS</h1>
+            <div class="camisa">
+                <img class="camisa__imagen" src="img/3.jpg" alt="imagen del producto">
+            
+                <div class="camisa__contenido">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque explicabo ut minus repudiandae dolorum iure aspernatur esse, dignissimos optio illo rem a consequatur perferendis beatae nisi quidem est, illum perspiciatis?
+                    </p>
+                    <form class="formulario">
+                        <select class="formulario__campo" >
+                            <option class="formulario__option" disabled selected >Seleccionar Talla</option>
+                            <option  class="formulario__option" value="Pequeño">Pequeño</option>
+                            <option  class="formulario__option" value="Mediano">Mediano</option>
+                            <option class="formulario__option"  value="Grande">Grande</option>
+                        </select>
+                        <input class="formulario__campo" type="number" placeholder="1" min="1">
+                    
+                    <input class="formulario__submit" type="submit" value="agregar al carrito">
+                </form>
+                </div>
+            </div>
+                
+    </main>
+    
+</body>
+<footer class="footer">
+    <h2 class="footer__texto    ">front-end store - todos los derechos reservados 2024</h2>
+    </footer>
+</html>
